@@ -1,0 +1,28 @@
+== Couchbase Prototype Project
+
+Using Rails and Angular I hope to learn about chouchbase. This project is a configuration system for storing statistics, organizing and aggregating statistics .
+
+
+== Getting Started
+
+
+1. install couchbase and its dependency
+http://docs.couchbase.com/couchbase-manual-2.2/#ubuntu-linux-installation
+
+2. clone this repo
+
+
+3. install the gems
+cd couchbase-prototype
+gem install bundler
+bundle install
+
+4. rails s
+
+5.  Go to http://localhost:3000/
+
+menu options are
+
+/menu
+  -/stat_types
+  -/stat_configurations

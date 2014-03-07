@@ -1,0 +1,2775 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-03-07 01:24:23 -0800
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-03-07 01:26:43 -0800
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:30:14 -0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__39244955209831054__call__3618148727555552534__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:32:09 -0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__39244955209831054__call__3618148727555552534__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:40:48 -0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__39244955209831054__call__3618148727555552534__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:41:21 -0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__39244955209831054__call__3618148727555552534__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:41:23 -0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__39244955209831054__call__3618148727555552534__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-03-07 01:44:11 -0800
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-03-07 01:44:33 -0800
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/welcomes" for 127.0.0.1 at 2014-03-07 01:44:41 -0800
+
+ActionController::RoutingError (No route matches [GET] "/welcomes"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-03-07 01:44:48 -0800
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.7ms)
+Compiled application.css  (0ms)  (pid 4117)
+Compiled jquery.js  (1ms)  (pid 4117)
+Compiled jquery_ujs.js  (0ms)  (pid 4117)
+Compiled app/app.js  (0ms)  (pid 4117)
+Compiled app/controllers/MenuController.js  (0ms)  (pid 4117)
+Compiled application.js  (31ms)  (pid 4117)
+Completed 200 OK in 81ms (Views: 80.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Served asset /app/controllers/MenuController.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Served asset /app/app.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 01:45:08 -0800
+Served asset /application.js - 200 OK (20ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:45:11 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Compiled app/app.js  (0ms)  (pid 4117)
+Compiled application.js  (1ms)  (pid 4117)
+Completed 200 OK in 30ms (Views: 29.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Served asset /app/app.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 01:46:43 -0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Compiled angular.js  (7ms)  (pid 4117)
+Compiled angular-route.js  (0ms)  (pid 4117)
+Compiled angularjs/rails/resource/utils/inflector.js  (0ms)  (pid 4117)
+Compiled angularjs/rails/resource/utils/injector.js  (0ms)  (pid 4117)
+Compiled angularjs/rails/resource/utils/url_builder.js  (0ms)  (pid 4117)
+Compiled angularjs/rails/resource/serialization.js  (0ms)  (pid 4117)
+Compiled angularjs/rails/resource/resource.js  (0ms)  (pid 4117)
+Compiled angularjs/rails/resource/index.js  (39ms)  (pid 4117)
+Compiled application.js  (82ms)  (pid 4117)
+Completed 200 OK in 117ms (Views: 116.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angular.js - 200 OK (2ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angular-route.js - 200 OK (1ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angularjs/rails/resource/index.js - 200 OK (3ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 200 OK (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 200 OK (1ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 200 OK (1ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:06 -0800
+Served asset /angularjs/rails/resource/serialization.js - 200 OK (1ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:07 -0800
+Served asset /angularjs/rails/resource/resource.js - 200 OK (1ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:07 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 01:49:07 -0800
+Served asset /application.js - 200 OK (35ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.2ms)
+Compiled dependencies/ngGrid.js  (0ms)  (pid 4117)
+Compiled application.js  (6ms)  (pid 4117)
+Completed 200 OK in 41ms (Views: 41.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /dependencies/ngGrid.js - 200 OK (1ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 01:58:32 -0800
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Compiled application.js  (4ms)  (pid 4117)
+Completed 200 OK in 45ms (Views: 44.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 01:59:57 -0800
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Compiled dependencies/ui-bootstrap-0.9.0.min.js  (17ms)  (pid 4117)
+Compiled dependencies/ui-bootstrap-tpls-0.9.0.min.js  (1ms)  (pid 4117)
+Compiled application.js  (29ms)  (pid 4117)
+Completed 200 OK in 83ms (Views: 83.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:03:15 -0800
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Compiled dependencies/ui-bootstrap-0.9.0.min.js  (0ms)  (pid 4117)
+Compiled dependencies/ui-bootstrap-tpls-0.9.0.min.js  (0ms)  (pid 4117)
+Compiled application.js  (4ms)  (pid 4117)
+Completed 200 OK in 72ms (Views: 71.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:05:13 -0800
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:06:18 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:07:55 -0800
+
+ArgumentError (missing :controller):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Compiled application.js  (3ms)  (pid 4117)
+Completed 200 OK in 38ms (Views: 38.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:08:18 -0800
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:10:16 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Compiled app/app.js  (0ms)  (pid 4117)
+Compiled app/controllers/DashboardController.js  (0ms)  (pid 4117)
+Compiled application.js  (6ms)  (pid 4117)
+Completed 200 OK in 50ms (Views: 50.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /app/controllers/DashboardController.js - 200 OK (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /app/app.js - 200 OK (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:26 -0800
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:14:35 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:05 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Compiled app/app.js  (0ms)  (pid 4117)
+Compiled application.js  (3ms)  (pid 4117)
+Completed 200 OK in 53ms (Views: 52.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /app/app.js - 200 OK (1ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/dashoboards" for 127.0.0.1 at 2014-03-07 02:15:41 -0800
+
+ActionController::RoutingError (No route matches [GET] "/dashoboards"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashoboards" for 127.0.0.1 at 2014-03-07 02:16:06 -0800
+
+ActionController::RoutingError (No route matches [GET] "/dashoboards"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:16:56 -0800
+
+NoMethodError (undefined method `key?' for "dashboards#index":String):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashoboards" for 127.0.0.1 at 2014-03-07 02:17:14 -0800
+
+ActionController::RoutingError (No route matches [GET] "/dashoboards"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Compiled app/app.js  (0ms)  (pid 4117)
+Compiled application.js  (3ms)  (pid 4117)
+Completed 200 OK in 52ms (Views: 52.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /app/app.js - 200 OK (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:17:35 -0800
+
+ActionController::RoutingError (uninitialized constant ApplicationContoller):
+  app/controllers/dashboards_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:17:38 -0800
+
+ActionController::RoutingError (uninitialized constant ApplicationContoller):
+  app/controllers/dashboards_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/dashboards.html" for 127.0.0.1 at 2014-03-07 02:18:16 -0800
+
+ActionController::RoutingError (uninitialized constant ApplicationContoller):
+  app/controllers/dashboards_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:18:25 -0800
+
+ActionController::RoutingError (uninitialized constant ApplicationContoller):
+  app/controllers/dashboards_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:18:50 -0800
+Processing by DashboardsController#index as HTML
+Completed 500 Internal Server Error in 23ms
+
+ActionView::MissingTemplate (Missing template dashboards/index, application/index with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/home/kgilmore/projects/couchbase-prototype/app/views"
+):
+  actionpack (3.2.12) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.12) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.12) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/kgilmore/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:414:in `_run__2363113163311963632__process_action__1858655463569684755__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__638242580323797084__call__1250213305644789168__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/kgilmore/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:18 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 11.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:19:30 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 17.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:21:42 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 14.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:22:16 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:49 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:23:57 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:32 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:24:42 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:10 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 17.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:34 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/dashboards" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angular-route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/index.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angularjs/rails/resource/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/inflector.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angularjs/rails/resource/utils/inflector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/url_builder.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angularjs/rails/resource/utils/url_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/utils/injector.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angularjs/rails/resource/utils/injector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/serialization.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angularjs/rails/resource/serialization.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/angularjs/rails/resource/resource.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /angularjs/rails/resource/resource.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/DashboardController.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /app/controllers/DashboardController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/MenuController.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /app/controllers/MenuController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ngGrid.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /dependencies/ngGrid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /dependencies/ui-bootstrap-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dependencies/ui-bootstrap-tpls-0.9.0.min.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /dependencies/ui-bootstrap-tpls-0.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-07 02:25:35 -0800
+Served asset /application.js - 304 Not Modified (2ms)
