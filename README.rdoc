@@ -7,19 +7,23 @@ Using Rails and Angular I hope to learn about chouchbase. This project is a conf
 
 
 1. install couchbase and its dependency
-http://docs.couchbase.com/couchbase-manual-2.2/#ubuntu-linux-installation
+	http://docs.couchbase.com/couchbase-manual-2.2/#ubuntu-linux-installation
 
-2. clone this repo
+2. Download and install libcouchbase 
+	http://www.couchbase.com/communities/c-client-library
 
+3. Go to http://localhost:8091 and set up the couchbase server. We will needa bucket created calle prototype_development
 
-3. install the gems
-cd couchbase-prototype
-gem install bundler
-bundle install
+4. clone this repo
 
-4. rails s
+4. install the gems
+	cd couchbase-prototype;
+	gem install bundler;
+	bundle install
 
-5.  Go to http://localhost:3000/
+5. rails s
+
+6.  Go to http://localhost:3000/
 
 menu options are
 
