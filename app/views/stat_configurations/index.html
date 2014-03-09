@@ -1,0 +1,23 @@
+<div ng-controller='StatConfigurationsController' class='container-fluid'>
+  
+  <fieldset>
+    <legend>Stat Configurations</legend>
+      <div class="control-group">
+        <div class="form-inline">
+
+          <button class="btn btn-small btn-info" type="button" ng-click="returnToMenu();">RETURN TO MENU</button>          
+          <button class="btn  btn-small btn-primary" type="button" ng-click="new()">NEW CONFIGURATION</button>        
+          <input type="text" style='width:275px' class='form-control' placeholder="filter list" autofocus ng-model="searchText">
+          <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
+        </div>
+      </div>
+      
+  </fieldset>     
+<hr>
+  <div class='row'>
+    <div class='col-md-8'>
+      <div class="gridStyle" ng-grid="statConfigurationsGrid"></div>
+    </div>
+  </div>
+
+</div>

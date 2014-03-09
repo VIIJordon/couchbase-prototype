@@ -7,11 +7,11 @@ common: &common
 
 development:
   <<: *common
-  bucket: config/prototype_development
+  bucket: prototype_development
 
 test:
   <<: *common
-  bucket: config/prototype_test
+  bucket: prototype_test
 
 # set these environment variables on your production server
 production:

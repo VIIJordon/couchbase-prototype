@@ -6,6 +6,7 @@
 	<table class='table'>
 	<tr ng-repeat='item in items'>
 	<td>{{item.title}}</td>
+	<td><button class='btn' ng-click='loadPage(item.url)'>List</button>
 	</tr>
 	</table>
 </div>

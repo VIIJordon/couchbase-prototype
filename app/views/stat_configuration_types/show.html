@@ -1,0 +1,41 @@
+<div ng-controller='StatConfigurationTypesController' class='container-fluid'>
+  
+  <fieldset>
+    <legend>
+      <button class="btn btn-small btn-info" type="button" ng-click="returnToMenu();">RETURN TO MENU</button>          
+      <button class="btn btn-small btn-info" type="button" ng-click="list();">LIST</button>          
+      Newsletters Admin
+    </legend>
+      <div class="control-group">
+        <div class="form-horizontal">
+        <button class='btn btn-success' type="submit" ng-click="update(selected)" ng-disabled="form.$invalid || isUnchanged(selected)">SAVE</button>
+          <a href="#/stat_configuration_types/new" class="btn btn-primary">NEW TYPE</a>        
+          <input type="text" ng-model="searchText" typeahead="result.name for result in types" typeahead-on-select="loadSelected($item)">
+          <button class='btn btn-danger' type="submit" ng-confirm-click ng-click="delete(selected)">DELETE</button>
+          <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
+        </div>
+      </div>
+  
+  </fieldset>   
+<hr>
+  <div >
+    <form  name="form" class="css-form" novalidate >
+      <div class="row">
+        <div class="span6">
+          <div class="row">
+            <div class="span1">
+              <div class="control-group">
+                <label class="control-label">Name:</label>
+              </div>
+            </div> 
+            <div class="span4">
+            <span>{{selected.name}}</span>
+            </div>         
+          </div>
+
+        </div>       
+      </div>
+    </form>
+  </div>
+</div>
+    

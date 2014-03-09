@@ -1,0 +1,65 @@
+<div ng-controller='StatConfigurationsController' class='container-fluid'>
+  
+  <fieldset style='margin-top:15px'>
+    <legend>
+      <button class="btn btn-small btn-info" type="button" ng-click="returnToMenu();">RETURN TO DASHBOARD</button>          
+      <button class="btn btn-small btn-info" type="button" ng-click="list();">LIST</button>          
+      Stat Configuration
+    </legend>
+      <div class="control-group">
+        <div class="form-horizontal">
+        <button class='btn btn-success' type="submit" ng-click="update(selected)" ng-disabled="form.$invalid">SAVE</button>
+          <button ng-click='new()' class="btn btn-primary">NEW CONFIGURATION</button>        
+          <input type="text" ng-model="searchText" typeahead="result.name for result in results" typeahead-on-select="loadSelected($item)">
+          <button class='btn btn-danger' type="submit" ng-confirm-click ng-click="delete(selected)">DELETE</button>
+          <alert ng-repeat="alert in alerts" class='alert' type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
+        </div>
+      </div>
+  
+  </fieldset>   
+<hr>
+
+  <div class='container'>  
+    <form  name="form" class="css-form" novalidate >
+      <div class="row show-grid">
+        <div class="col-md-3">
+          <label> Name</label>
+          <div class="controls">
+            <input type="text" class="form-control" ng-model="selected.name" required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label>Key</label>
+          <div class="controls">
+            <input type="text" class="form-control" ng-model="selected.keyName" required>
+          </div>
+        </div>     
+      </div>     
+      <div class="row show-grid">
+        <div class="col-md-6">
+          <label> Description</label>
+          <div class="controls">
+            <textarea rows="5" style="width:450px" class="form-control" ng-model="selected.description"></textarea>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <label>Active</label>
+          <div class="controls">
+            <input type='checkbox' ng-model='selected.active'>
+          </div>
+        </div>
+      </div>
+      <div class='row show-grid'>
+      <div class='col-md-2'>
+        <button class='btn btn-primary' ng-click='newStat()'>New Stat</button>
+      </div>
+      </div>
+          <div class="gridStyle" ng-grid="statsGrid"></div>
+      <div class="row">
+        <div class='col-md-8'>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+    

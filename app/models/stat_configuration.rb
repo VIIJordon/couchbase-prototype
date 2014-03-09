@@ -1,11 +1,13 @@
 class StatConfiguration < Couchbase::Model
 	attribute :name
+	attribute :key_name
 	attribute :description
 	attribute :active
-
-	belongs_to :stat_configuration_type
+	attribute :stats
+		
+  view :all
 	
 	before_save do |doc|
-		doc.active = doc.active.to_bool
+		doc.stats=[] unless doc.stats
 	end
 end
